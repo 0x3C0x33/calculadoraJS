@@ -1,0 +1,15 @@
+<form id="calculadora">
+    <fieldset id="calc">
+        <legend>Calculadora</legend>
+        <table border="2px" id="calculadoraa">
+            <tr><td colspan="4"><input type="text" value="" name="calc_consola"/>                                                        <td onclick="historial(1)"><input type="text" name="histo1" value=""/></td></tr>
+            <tr><td onclick="num(7)">7</td><td onclick="num(8)">8</td><td onclick="num(9)">9</td><td onclick="igual(1)"> +</td>          <td onclick="historial(2)"><input type="text" name="histo2" value=""/></td></tr>
+            <tr><td onclick="num(4)">4</td><td onclick="num(5)">5</td><td onclick="num(6)">6</td><td onclick="igual(2)"> -</td>          <td onclick="historial(3)"><input type="text" name="histo3" value=""/></td></tr>
+            <tr><td onclick="num(1)">1</td><td onclick="num(2)">2</td><td onclick="num(3)">3</td><td onclick="igual(3)"> *</td>          <td onclick="historial(4)"><input type="text" name="histo4" value=""/></td></tr>
+            <tr><td onclick="num(10)">,</td><td onclick="num(0)">0</td><td onclick=""></td><td onclick="igual(4)"> /</td>                <td onclick="historial(5)"><input type="text" name="histo5" value=""/></td></tr>
+            <tr><td onclick="retroceso()"><</td><td onclick="limpiar()">C</td><td onclick="igual(10)">=</td><td onclick="igual(5)">^</td></tr>
+        </table>
+        <input style="visibility: hidden;" type="text" value="" name="historial1"/><input style="visibility: hidden;" type="text" value="" name="elementoLogico"/><input style="visibility: hidden;background-color: none;" type="text" name="varHistorial" value="0"/>
+    </fieldset>
+   
+</form>

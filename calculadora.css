@@ -1,0 +1,16 @@
+#selector_calculadora {
+    margin: auto;
+    background: #000000;
+}
+
+#calculadoraa {
+    border: black 2px solid;
+    background: grey;
+    text-align: center;
+} 
+
+#calculadora tr td {
+    background: rgb(44, 44, 44);
+}:focus {
+    background: rgb(163, 163, 163);
+}
